@@ -206,8 +206,8 @@ function decodeMorse(code){
     }
     return message.trim()
 }
-//console.log(decodeMorse('.... . -.--   .--- ..- -.. .'))
-//console.log(decodeMorse("...---... -.-.--"))
-//console.log(decodeMorse('-.-. --- -. ...- . .-. -     - . -..- -     - ---     -- --- .-. ... .     -.-. --- -.. .'))
+console.log(decodeMorse('.... . -.--   .--- ..- -.. .'))
+console.log(decodeMorse("...---... -.-.--"))
+console.log(decodeMorse('-.-. --- -. ...- . .-. -     - . -..- -     - ---     -- --- .-. ... .     -.-. --- -.. .'))
 console.log(decodeMorse(' .-   ... '))
 console.log('|'+decodeMorse('      ...---... -.-.--   - .... .   --.- ..- .. -.-. -.-   -... .-. --- .-- -.   ..-. --- -..-   .--- ..- -- .--. ...   --- ...- . .-.   - .... .   .-.. .- --.. -.--   -.. --- --. .-.-.-  ')+'|')
