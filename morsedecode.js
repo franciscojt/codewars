@@ -71,7 +71,6 @@ morse = {
 
 function decodeMorse(code){
     codes = code.split(' '), message = "";
-    console.log(codes)
     for(var i = 0; i< codes.length; i++){
         switch(codes[i]){
             case morse.A:
